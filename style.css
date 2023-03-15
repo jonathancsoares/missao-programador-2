@@ -1,6 +1,102 @@
 @charset "UTF-8";
 
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* */
+}
+
 .logo-apple {
     width: 30px;
 
 }
+
+.caixa-azul {
+    display: flex;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 300px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    font-size: 15px;
+}
+
+.preco {
+    font-size: 20px;
+    color:#626262;
+    font-weight: lighter;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.botao {
+    width: 120px;
+    padding: 10px 20px;
+    background-color: #0071e3;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+
+.escolha-cor {
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.troca-cor {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.azul {
+    
+    background-color: #81a5c4;
+}
+.amarelo {
+    
+    background-color: #f7da47;
+}
+.branco {
+    
+    background-color: #c1c1c1;
+
+}
+.preto {
+    
+    background-color: #272d33;
+
+}
+.vermelho {
+    
+    background-color: #b50012;
+}
+.roxo {
+    
+    background-color: #9581c4;
+}
+
+.iphone-color {
+    width: 450px;
+}
+
