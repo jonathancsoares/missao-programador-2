@@ -7,19 +7,38 @@
     box-sizing: border-box; /* */
 }
 
+nav {
+    height:50px;
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+    align-items: center;
+    border-bottom:0.5px solid #c1c1c1;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
 .logo-apple {
-    width: 30px;
+    width: 20px;
 
 }
 
 .caixa-azul {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 50px;
+    margin:0 100px ;
 }
 
 h1 {
     font-size: 30px;
-    margin-top: 300px;
 }
 
 h2 {
@@ -96,7 +115,18 @@ h2 {
     background-color: #9581c4;
 }
 
-.iphone-color {
-    width: 450px;
+.iphone {
+    width: 350px;
+    margin-top: 100px;
+    z-index: 99;
 }
 
+.circulo {
+    width: 100%;
+    height: 100%;
+    background:#81a5c4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 900px);
+}
